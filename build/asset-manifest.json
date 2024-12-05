@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dad64965.css",
+    "main.js": "/static/js/main.7a86dfdd.js",
+    "static/media/MyShoppingCentreLogo.png": "/static/media/MyShoppingCentreLogo.adfa13b19e5a95bb1233.png",
+    "index.html": "/index.html",
+    "main.dad64965.css.map": "/static/css/main.dad64965.css.map",
+    "main.7a86dfdd.js.map": "/static/js/main.7a86dfdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dad64965.css",
+    "static/js/main.7a86dfdd.js"
+  ]
+}
