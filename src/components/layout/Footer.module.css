@@ -1,0 +1,15 @@
+.UpperEndOfPage {
+  background-color: darkslategray;
+  height: 5px;
+}
+
+.endOfPage {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #ffbd16;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}

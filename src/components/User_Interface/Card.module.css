@@ -1,0 +1,25 @@
+.card {
+  margin: 20px 25px;
+  width: 255px;
+  /* background-color: rgb(232, 227, 193); */
+  background-color: #ffbd1654;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkslategray;
+}
+
+.card ::-webkit-scrollbar {
+  width: 3px;
+  background-color: #ffbd16;
+}
+.card ::-webkit-scrollbar-thumb {
+  background-color: rgb(84, 107, 107);
+  border-radius: 50px;
+}

@@ -1,0 +1,102 @@
+.item {
+  margin: 16px 4px;
+}
+
+.image {
+  width: 100%;
+  height: 45%;
+  overflow: hidden;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: fill;
+  height: 240px;
+}
+
+.description {
+  height: 70px;
+  overflow-y: scroll;
+}
+
+.content {
+  text-align: center;
+  padding: 0 14px;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: black;
+}
+
+.price {
+  color: darkgreen;
+  font-weight: bold;
+}
+.stockStatus {
+  color: red;
+  font-weight: bold;
+  display: inline;
+}
+
+.actions {
+  padding: 16px;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.addToCartBtnAdjust {
+  position: relative;
+  bottom: 5px;
+  padding-top: 2px;
+}
+
+.actions button {
+  font: 18px;
+  font-weight: 600;
+  float: right;
+  cursor: pointer;
+  color: #357738;
+  border: 1px solid #3e8e41;
+  background-color: #ffbd16;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #3e8e41;
+  color: #ffbd16;
+  transition: 0.3s;
+}
+
+.amountBtn {
+  color: darkslategray;
+  position: relative;
+  padding: 3px;
+  border-radius: 4px;
+  bottom: 23px;
+  left: 15px;
+  margin-bottom: 8px;
+  background-color: #ffbd16;
+  width: 60px;
+  height: 28px;
+  border: 1px solid #3e8e41;
+  text-align: center;
+}
+
+.amountBtn button {
+  border: none;
+  background-color: #ffbd16;
+  font-size: 16px;
+  color: #357738;
+  position: relative;
+  top: 4px;
+}
+
+.amountBtn span {
+  position: relative;
+  top: 4px;
+}

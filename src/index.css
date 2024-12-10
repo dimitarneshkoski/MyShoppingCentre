@@ -1,0 +1,11 @@
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  color: darkslategray;
+  background-color: rgba(0, 0, 0, 0.17);
+}

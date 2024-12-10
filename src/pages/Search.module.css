@@ -1,0 +1,9 @@
+div .text {
+  text-align: center;
+  margin-bottom: 430px;
+}
+
+.noResultTitle {
+  color: #1cb87f;
+  text-decoration: underline;
+}

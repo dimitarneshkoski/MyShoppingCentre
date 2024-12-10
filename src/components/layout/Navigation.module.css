@@ -1,0 +1,255 @@
+.header {
+  width: inherit;
+  min-height: 60px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffbd16;
+  padding: 0 1%;
+  padding-bottom: 6px;
+  padding-top: 4px;
+}
+
+.header .logo a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .logo img {
+  width: 210px;
+  position: relative;
+  bottom: 4px;
+  margin-bottom: 2px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-color: #ffbd16;
+}
+
+.header ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-left: 35px;
+  margin-bottom: 4px;
+}
+
+.header li .login {
+  position: relative;
+  bottom: 4px;
+  padding-top: 4px;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 19px;
+  color: darkslategray;
+}
+
+.header li a:hover {
+  color: black;
+}
+
+.form {
+  width: 500px;
+  min-width: 30%;
+  padding: 2px;
+  padding-bottom: 8px;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+.inputField {
+  width: 85%;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid darkslategray;
+  border-right: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: rgb(232, 227, 193);
+}
+
+.inputfield:focus {
+  border-right: 0px;
+}
+
+.header .searchBtn {
+  width: 8%;
+  min-width: 6%;
+  height: 100%;
+  border: 1px solid darkslategray;
+  border-left: none;
+  border-radius: 0%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  position: relative;
+  top: 7px;
+  padding-top: 9px;
+  padding-bottom: 5px;
+
+  background-color: darkslategray;
+  color: #ffbd16;
+}
+
+.header .searchBtn:hover {
+  background-color: rgb(40, 63, 63);
+  transition: 0.1s;
+}
+
+.lowerPart {
+  width: 100%;
+  background-color: darkslategray;
+  display: block;
+}
+
+.lowerPart a {
+  text-decoration: none;
+  color: black;
+}
+
+.header .logout button {
+  background-color: darkslategray;
+  color: #ffbd16;
+  font-size: 12px;
+  border-radius: 12px;
+  padding: 3px 10px 3px 10px;
+  margin-right: 10px;
+}
+.header .logout button span {
+  position: relative;
+  bottom: 3px;
+}
+.header .logout button:hover {
+  background-color: rgb(40, 63, 63);
+  transition: 0.4s;
+}
+
+.header .addNewButtonAdjust {
+  position: relative;
+  bottom: 4px;
+}
+
+.header .addNewListing {
+  position: relative;
+  top: 3px;
+}
+
+.header .myCartBtnAdjustment {
+  position: relative;
+  bottom: 4px;
+  right: 4px;
+}
+
+.lowerPart .dropBtn {
+  background-color: darkslategray;
+  border: none;
+  width: 148px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  padding: 5px 5px 7px 5px;
+  margin-left: 40%;
+}
+.lowerPart .dropBtn span {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: darkslategray;
+  text-decoration: none;
+}
+
+.dropdownContent {
+  padding-top: 15px;
+  padding-left: 70px;
+  display: none;
+  width: 100%;
+  font-size: 18px;
+  position: absolute;
+  background-color: rgba(221, 221, 221, 0.96);
+  text-align: left;
+  min-width: 260px;
+  min-height: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent :hover {
+  font-weight: bold;
+  cursor: default;
+  color: #ffbd16;
+  transition: 0.3s;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdown:hover .dropBtn {
+  color: #ffbd16;
+  transition: 0.3s;
+}
+
+.lowerPart .wholeSort {
+  float: right;
+  position: relative;
+  right: 60px;
+  font-size: 16px;
+  width: 185px;
+  border: none;
+  padding: 10.5px 5px 10px 5px;
+}
+
+.lowerPart label {
+  color: white;
+  position: relative;
+  top: 2px;
+}
+
+.lowerPart .sortByDropDown {
+  background-color: rgba(221, 221, 221, 1);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 21px;
+  border: 1px solid darkslategray;
+  border-right: none;
+}
+
+.lowerPart .resetSortBtn {
+  background-color: #ffbd16;
+  height: 21px;
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 1px solid darkslategray;
+}
+
+.lowerPart .resetSortBtn:hover {
+  background-color: #ffbd16cc;
+  transition: 0.1s;
+}
+
+.userCartBadge {
+  background-color: red;
+  color: white;
+  position: relative;
+  bottom: 12px;
+  right: 4px;
+  z-index: 1;
+  border-radius: 30px;
+  padding: 5px;
+  font-size: 8px;
+}

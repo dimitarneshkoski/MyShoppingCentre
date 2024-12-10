@@ -1,0 +1,62 @@
+.form {
+  width: 95%;
+  max-width: 25rem;
+  margin: 2rem auto;
+  background-color: #ffbd16;
+  border-radius: 6px;
+  padding: 30px;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: darkslategray;
+  display: block;
+}
+
+.control input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font: inherit;
+  width: 80%;
+  border-radius: 4px;
+  border: 1px solid green;
+  padding: 0.25rem;
+  background-color: rgb(232, 227, 193);
+}
+
+.control input::placeholder {
+  font-size: 14px;
+}
+
+.action {
+  margin-top: 1.5rem;
+}
+
+.changePassBtnAdjust {
+  position: relative;
+  bottom: 5px;
+}
+
+.action button {
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  padding: 10px 20px 8px 26px;
+  border-radius: 4px;
+  background-color: #04aa6d;
+  color: white;
+  border: 1px solid #04aa6d;
+}
+
+.action button:hover {
+  background-color: #3e8e41;
+  border-color: #3e8e41;
+  transition: 0.5s;
+}
